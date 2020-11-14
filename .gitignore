@@ -1,0 +1,13 @@
+packer/packer-bot-key.json
+packer/terraform-bot-key.json
+packer/variables.json
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
+terraform-bot-key.json
+versions.tf
+backend.tf
+*.retry
+jdauphant.nginx

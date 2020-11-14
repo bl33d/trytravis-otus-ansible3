@@ -1,0 +1,12 @@
+Description=Puma HTTP Server
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/reddit
+ExecStart=//usr/local/bin/puma
+Restart=always
+Environment="DATABASE_URL=${database_url}"
+
+[Install]
+WantedBy=multi-user.target

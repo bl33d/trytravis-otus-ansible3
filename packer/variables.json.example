@@ -1,0 +1,5 @@
+{
+  "folder_id": "b1g7rnu8v9blnov6283p",
+  "source_image_family": "ubuntu-1604-lts",
+  "service_account_key_file": "packer/packer-bot-key-example.json"
+}

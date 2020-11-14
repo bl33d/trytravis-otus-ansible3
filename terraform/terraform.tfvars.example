@@ -1,0 +1,8 @@
+service_account_key_file = "terraform-bot-key.json.example"
+cloud_id                 = "aaa111aaa111aaa111aaa"
+folder_id                = "bbb222bbb222bbb222bbb"
+zone                     = "ru-central1-a"
+public_key_path          = "~/.ssh/appuser.pub"
+image_id                 = "fd8dqkicue15evqu59k7"
+subnet_id                = "e9b8jq70j2bafkcv156b"
+private_key              = "~/.ssh/appuser"

@@ -1,0 +1,27 @@
+{
+    "variables": {
+        "folder_id": "",
+        "source_image_family": "",
+        "service_account_key_file": "",
+        "image_family": ""
+    },
+    "builders": [
+    {
+        "type": "yandex",
+        "service_account_key_file": "{{user `service_account_key_file`}}",
+        "folder_id": "{{user `folder_id`}}",
+        "source_image_family": "{{user `source_image_family`}}",
+        "image_name": "mongodb-{{timestamp}}",
+        "image_family": "{{user `image_family`}}",
+        "ssh_username": "ubuntu",
+        "platform_id": "standard-v1",
+        "use_ipv4_nat": "true"
+    }
+    ],
+    "provisioners": [
+        {
+        "type": "ansible",
+        "playbook_file": "ansible/playbooks/packer_db.yml"
+        }
+    ]
+}
