@@ -1,7 +1,7 @@
 # bl33d_infra
 
 TRYTRAVIS bl33d Infra repository
-
+o
 
 
 ## ДЗ № 10
