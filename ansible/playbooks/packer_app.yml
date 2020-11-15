@@ -11,4 +11,4 @@
           - ruby-bundler
           - build-essential
           - git
-        state: latest
+        state: present
